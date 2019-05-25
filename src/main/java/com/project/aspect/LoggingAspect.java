@@ -22,5 +22,6 @@ public class LoggingAspect {
     @After("bean(userServiceImpl)")
     public void afterAdvice(){
         System.out.println("log.afterAdvice");
+        System.out.println("金豪杰真帅")
     }
 }
